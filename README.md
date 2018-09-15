@@ -2,7 +2,7 @@
 Shellhacks 2018
 
 Presentation script:
-Name origins from Diversify and Developer 
+Name origins from Diversify and Developer. 
 Deversify is a data visualization site that places circles based on the # of developers on a specific continent. The data is sourced from a Hackerrank and StackOverflow survey that recieved around 97,000 qualified responses. Demographics show software development is primarily caucasian male dominated as the percentage of respondents who identified as white, was around 74% of total respondant and 92.9% identified as male.
 
 Workforce Summary
