@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 
-<body id="override">
+<body id="override" onload="makeTable()">
     <div id="header">
         <img src="images/logo.png" id="logo">
 
@@ -19,11 +19,11 @@
 
     <div id="infoTable">
         <table class="table" id="info">
-            <thead>
+            <thead id="clear">
                 <tr id="tableHead">
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="tableBody">
             </tbody>
         </table>
     </div>

@@ -11,12 +11,6 @@ var url1 = "https://maps.googleapis.com/maps/api/geocode/json?address=" ;
 var url2 = "&key=AIzaSyAhFAIpFI3FEO0Kvbs3WLjLLEWJUWROr00";
 const http = new XMLHttpRequest();
 
-$(document).ready(function () {
-  $("#algorithm").on('click', function(){
-
-  });
-
-});
 
       var citymap = {
         northAM: {
