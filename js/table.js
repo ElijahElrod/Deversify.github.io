@@ -1,4 +1,10 @@
-$.getJSON("data/data.json", function (json) {
+$(document).ready(function() {
+    $("a[data-stateName]").click(function() {
+        openbox_state( $(this).data("stateName") );
+    });
+});
+
+$.getJSON("data/continentinfo.json", function (json) {
     var length = Object.keys(json).length;
     var innerL = Object.keys(json[0]).length;
 
