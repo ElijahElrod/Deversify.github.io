@@ -31,7 +31,7 @@ $(document).ready(function() {
         });
         $("#gender").on('click', function(){
             tablehead.innerHTML = temp;
-            path = "data/genderDemographics.json";
+            path = "data/genderDemographic.json";
             makeTable();
         });
         $("#java").on('click', function(){
